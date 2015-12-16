@@ -5,7 +5,6 @@ This seed project will auto concat and uglify the js files in <code>www/js/</cod
 2. Add platform
 <code>$ ionic platform add android</code> or <code>$ ionic platform add ios</code>
 3. Install dependencies
-<code>$ npm install</code>
-<code>$ ionic state restore --plugins</code>
+<code>$ npm install</code> and <code>$ ionic state restore --plugins</code>
 4. Run app
 <code>$ ionic serve</code> or <code>$ ionic build android</code>
