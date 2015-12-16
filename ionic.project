@@ -2,6 +2,6 @@
   "name": "ionic-seed",
   "app_id": "",
   "gulpStartupTasks": [
-  "watch"
+    "watch"
   ]
 }
