@@ -4,6 +4,10 @@ This seed project will auto concat and uglify the js files in <code>www/js/</cod
  in _ionic.project_, _package.json_ and _config_xml_, change the "ionic-seed" to your app name, change the id "com.anasit.ionic-seed" to your id
 2. Install dependencies
 <code>$ npm install</code>
+<code>$ ionic plugin add cordova-plugin-device</code>
+<code>$ ionic plugin add cordova-plugin-device</code>
+<code>$ ionic plugin add cordova-plugin-device</code>
+<code>$ ionic plugin add cordova-plugin-device</code>
 3. Add platform
 <code>$ ionic platform add android</code> or <code>$ ionic platform add ios</code>
 4. Run app
