@@ -5,9 +5,11 @@ This seed project will auto concat and uglify the js files in <code>www/js/</cod
 2. Install dependencies
 <code>$ npm install</code>
 <code>$ ionic plugin add cordova-plugin-device</code>
-<code>$ ionic plugin add cordova-plugin-device</code>
-<code>$ ionic plugin add cordova-plugin-device</code>
-<code>$ ionic plugin add cordova-plugin-device</code>
+<code>$ ionic plugin add cordova-plugin-console</code>
+<code>$ ionic plugin add cordova-plugin-whitelist</code>
+<code>$ ionic plugin add cordova-plugin-splashscreen</code>
+<code>$ ionic plugin add cordova-plugin-statusbar</code>
+<code>$ ionic plugin add ionic-plugin-keyboard</code>
 3. Add platform
 <code>$ ionic platform add android</code> or <code>$ ionic platform add ios</code>
 4. Run app
