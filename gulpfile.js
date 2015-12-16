@@ -39,21 +39,21 @@ gulp.task('templatecache', function (done) {
   .on('end', done);
 });
 
-gulp.task('ng_annotate', function (done) {
+gulp.task('ng_annotate', ['templatecache'], function (done) {
   gulp.src('./www/js/*.js')
   .pipe(ngAnnotate({single_quotes: true}))
   .pipe(gulp.dest('./www/dist/dist_js/app'))
   .on('end', done);
 });
 
-gulp.task('useref', function (done) {
+gulp.task('useref', ['sass', 'ng_annotate'], function (done) {
   gulp.src('./www/*.html')
   .pipe(useref())
   .pipe(gulp.dest('./www/dist'))
   .on('end', done);
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', ['useref'], function() {
   gulp.watch(paths.sass, ['sass']);
   gulp.watch(paths.templatecache, ['templatecache']);
   gulp.watch(paths.ng_annotate, ['ng_annotate']);
